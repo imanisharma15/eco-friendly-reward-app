@@ -82,6 +82,7 @@ from eco_reward_app import log_activity, calculate_points
 log_activity(user_id=101, activity="Recycling Plastic", quantity=5)
 points = calculate_points(user_id=101)
 print(f"Total Reward Points: {points}")
+```
 
 ## Future Improvements
 
